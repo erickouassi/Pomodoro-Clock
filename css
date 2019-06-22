@@ -1,1 +1,89 @@
+body {
+  background-color: lightblue;
+}
 
+#app{
+  display: flex;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ids */
+#break-label{
+  text-align: center;
+  font-size: 25px;
+}
+
+#session-label{
+  text-align: center;
+  font-size: 25px;
+}
+#break-decrement{
+  color: red;
+}
+#session-decrement{
+  color: red;
+}
+#break-increment{
+  color: green;
+}
+
+#session-increment{
+ color: green; 
+}
+#break-length{
+  font-size: 30px;
+}
+#session-length{
+  font-size: 30px;
+}
+#timer-label{
+ text-align: center;
+ font-size: 40px;
+}
+#time-left{
+  padding: 10px 0;
+  border: 3px dotted white;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+#start_stop{
+  background-color: white;
+}
+#reset{
+  color: white;
+  font-size: 30px;
+  background-color: red;
+}
+/*  */
+button {
+  border-radius: 10px;   
+  cursor: pointer;
+  background-color: none;
+  border: none;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px
+    }
+.btn-level{
+   display: inline;  
+}
+.signMinus{
+  font-size: 18px;
+}
+.signPlus{
+  font-size: 13px;
+}
+.title{
+  font-size: 30px;
+}
+.startPlay{
+  font-size: 30px;
+  color: green;
+}
+.startStop{
+  font-size: 30px;
+  color: red;
+}
